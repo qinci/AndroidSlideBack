@@ -27,5 +27,6 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     def libs = rootProject.ext.libs
     compile libs['appcompat-v7']
+//    compile 'com.qincis.slideback:LibSlideBack:0.0.1'
     compile project(':LibSlideBack')
 }
